@@ -61,7 +61,7 @@ holiday_hash.each {|season, holidays|
       holiday_array = []
         array.each {|x| holiday_array << x.capitalize!}
       holiday = holiday_array.join(" ")
-      puts "  #{holiday}: #{supplies.join(",")}"
+      puts "  #{holiday}: #{supplies.join(", ")}"
   }
 }
 end
